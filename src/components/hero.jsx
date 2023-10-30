@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import './Hero.css'; 
+import '../assets/css/Hero.css';
 
 function Hero() {
   return (
