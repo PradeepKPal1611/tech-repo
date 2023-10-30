@@ -1,6 +1,9 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import './Hero.css'; 
+import '../assets/css/Hero.css';
+import Image1 from '../assets/images/Image1.jpeg';
+import Image2 from '../assets/images/Image2.jpeg';
+import Image3 from '../assets/images/Image3.jpeg';
 
 function Hero() {
   return (
@@ -8,7 +11,7 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="Image1.jpeg"  
+          src={Image1} 
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,18 +22,19 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="Image2.jpeg"  
+          src={Image2}   
           alt="Second slide"
         />
         <Carousel.Caption>
           <h5>Second slide</h5>
-          <p>The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.</p>
+          <p>The best and most beautiful things in the world cannot be seen or even touched -
+             they must be felt with the heart.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="Image3.jpeg" 
+          src={Image3} 
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -40,7 +44,6 @@ function Hero() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <button>Get Started</button>
     </Carousel>
   );
 }

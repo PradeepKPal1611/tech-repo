@@ -1,9 +1,9 @@
 .carousel {
-    max-height: 600px; 
+    max-height: 500px; 
   }
   
   .carousel-item img {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
   
@@ -15,11 +15,14 @@
   }
   
   .carousel-caption h5 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bold;
+    color: #fff;
+    font-display: Top;
   }
   
   .carousel-caption p {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    color: #fff;
   }
 
