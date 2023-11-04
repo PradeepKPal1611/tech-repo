@@ -1,9 +1,12 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import '../assets/css/Hero.css';
+<<<<<<< HEAD
 import Image1 from '../assets/images/Image1.jpeg';
 import Image2 from '../assets/images/Image2.jpeg';
 import Image3 from '../assets/images/Image3.jpeg';
+=======
+>>>>>>> 5a33c0c065c913f8ada62819412fb34e77c293ac
 
 function Hero() {
   return (
